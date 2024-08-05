@@ -1,0 +1,5 @@
+.box {
+    height: 100px; // Define a altura da div "box"
+    width: 200px; // Define a largura da div "box"
+    background: rgb(0, 0, 0); // Define a cor de fundo inicial da div "box" como preto
+}
