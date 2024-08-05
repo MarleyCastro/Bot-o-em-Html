@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css"> <!-- Link para o arquivo CSS externo -->
+    <script src="script.js" defer></script> <!-- Link para o arquivo JavaScript externo, carregado de forma assíncrona -->
+    <title>Botão CSS</title> <!-- Título da página -->
+</head>
+<body>
+    <div class="box"></div> <!-- Div que será alterada com o JavaScript -->
+    <select onchange="byCharge(this.value)"> <!-- Menu dropdown para selecionar uma cor, chamando a função byCharge quando alterado -->
+        <option value="red" selected>Vermelho</option> <!-- Opção Vermelho, definida como a padrão -->
+        <option value="green">Verde</option> <!-- Opção Verde -->
+        <option value="blue">Azul</option> <!-- Opção Azul -->
+        <option value="black">Preto</option> <!-- Opção Preto -->
+    </select>
+</body>
+</html>
